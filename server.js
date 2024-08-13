@@ -13,8 +13,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-        user: 'webhide2@gmail.com', 
-        pass: 'intb yeaz hcsp btqp'                 
+        user: '********', 
+        pass: '*********'                 
     }
 });
 
@@ -22,8 +22,8 @@ app.post('/send-email', (req, res) => {
     const { email, message } = req.body;
 
     const mailOptions = {
-        from: 'webhide2@gmail.com', 
-        to: 'admin@hidegram.com', 
+        from: '********', 
+        to: '***********', 
         subject: 'Письмо с сайта',
         text: `Почта- ${email}\n\nТекст-${message}`
     };

@@ -149,36 +149,63 @@
             <div class="container">
                 <div class="row">
                     <div class="lineal"></div>
-
-                    <div class=" col-12 d-sm-none downSquadContainerFooter">
-                        <div style="z-index: -5;"><img src="img\background\squarFooter.png"></div>
-                    </div>          
-                    
                     <div style="margin-top: 78px;"></div>
-
-
-                    <div class="col-md-6 col-sm-12 footerText1">Hidegram</div>
-
+    
+                    <div class="col-md-5 col-sm-12 footerText1">
+                        <div class="formXQS">
+                            <div class="footerText2" style="margin-bottom: 20px;">Feedback</div>
+                            <div id="section5"></div>
+                            <div class="mb-4 faqTEXT1">
+                                Seeking personalized support? 
+                                <span class="faqTEXT2">
+                                    Request a call from our team
+                                </span>
+                            </div>
+    
+                            <form id="feedbackForm">
+                                <div class="input1 mb-3">
+                                    <div class="inputTitleText">YOUR EMAIL</div>
+                                    <input id="email" class="imputText" type="email" required />
+                                </div>
+                    
+                                <div class="input1 mb-4">
+                                    <span class="inputTitleText">TEXT </span>
+                                    <div id="message" class="imputText2" contenteditable="true"></div>                            
+                                </div>
+                    
+                                <button class="sendMessage" type="submit" style="margin-bottom: 11px;">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+    
                     <nav class="col-md-3 col-sm-12 link">
-                        <div class="footerText2 mb-3">MAIN</div>
-                        <a href="index.html#section1" >Features</a>
-                        <a href="index.html#section2" >Why Us?</a>
-                        <a href="index.html#section4" >FAQ</a>
-                        <a href="index.html#section5" >Contact us</a>
-
+                        <div class="footerText2 mb-3">INFO</div>
+                        <a class="citation" href="#section1" onclick="scrollToSection(event, 'section1')">Features</a>
+                        <a class="citation" href="#section2" onclick="scrollToSection(event, 'section2')">Why Us?</a>
+                        <a class="citation" href="#section4" onclick="scrollToSection(event, 'section4')">FAQ</a>
+                        <a class="citation mb-5" href="#section5" onclick="scrollToSection(event, 'section5')">Contact us</a>
+    
+                        <div class="footerText2 mb-3">CONTACT US</div>
+                        <div class="">+41 79 661 52 78</div>
+                        <div class="">admin@hidegram.com</div>
+                        <div class="">mark@shaposhnik.ch</div>
                     </nav>
     
                     <div class="col-md-3 col-sm-12 link ">
                         <div class="footerText2 mb-3">POLICIES</div>
                         <div class="nav-item">
-                            <a class="nav-link" href="#section1">Terms & Conditions</a>
-
+                            <a class="nav-link" href="privpolicy.html#section1">Terms & Conditions</a>
+    
                         </div>
                         <div class="nav-item">
-                            <a class="nav-link" href="#section4">Privacy Policy</a>
+                            <a class="nav-link" href="privpolicy.html#section4">Privacy Policy</a>
                         </div>
                     </div>
-
+    
+                    <div class="col-md-1 ms-auto">
+                        <img src="img\icon\HG_logo_footer.png" >
+                    </div>
+    
                     <div class="col-12 text-center footerText3">Copyright © 2024 Hidegram</div>
                 </div>
             </div>
