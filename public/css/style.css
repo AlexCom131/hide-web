@@ -572,6 +572,24 @@ header{
   height: 48px;
 }
 
+.wDemo {
+  gap: 0px;
+  border-radius: 50px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  border: 1px solid #ffffff;
+  background: rgba(255, 255, 255, 0);
+  gap: 0px;
+  opacity: 0px;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  color: #ffffff;
+  display: grid;
+  place-items: center;
+  white-space: nowrap;
+}
+
 .introContainerClients{
   display: grid;
   grid-template-columns: 600px;
