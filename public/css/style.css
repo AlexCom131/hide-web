@@ -416,10 +416,6 @@ header{
     display: block;
   }
 
-  .footerText2{
-    margin-top: 40px;
-  }
-
   .footerText3{
     margin-top: 70px;
   }
@@ -739,6 +735,23 @@ header{
       color: #fefefe;
   }
 
+
+  .wDemoIntro {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 246%;
+    letter-spacing: -0.03em;
+    color: #fefefe;
+
+    border: 1px solid #fff;
+    border-radius: 50px;
+    width: 108px;
+    height: 37px;
+    display: grid;
+    place-items: center;
+    white-space: nowrap;
+  }
+
   .introContainerClients{
   margin-top: 60px;
   }
@@ -784,7 +797,7 @@ header{
   row-gap: 40px;
   column-gap: 24px;
   justify-content: center;
-  margin-top:94px;
+  margin-top:142px;
 }
 
 .exambleText{
@@ -2107,6 +2120,8 @@ a {
 
   padding-top: 99px;
 
+  margin-bottom: 146px;
+
 }
 
 .twoAboutText2{
@@ -2178,8 +2193,7 @@ a {
   left: 0;
   right: 0;
   width: 100%; 
-  height: 100vw; 
-  height: 860px;
+  height: 948px;
   background: #1e1e1e;
   z-index: -1;
 }
@@ -2198,6 +2212,8 @@ a {
       font-size: 29px;
 
       white-space: nowrap;
+
+      margin-bottom: 46px;
   }
 
   .twoAboutText2{
@@ -2242,8 +2258,7 @@ a {
   }
 
   .backgroundAbout{
-      min-height: 900px;
-      max-height: 900px;
+      max-height: 800px;
       height:100%;
   }
 
