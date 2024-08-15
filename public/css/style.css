@@ -291,6 +291,7 @@ footer{
   padding: 32px 24px;
   max-width: 392px;
   
+  margin-top: -33px;
 }
 
 .faqTEXT1{
@@ -570,6 +571,7 @@ header{
   width: 158px;
   height: 48px;
   white-space: nowrap;
+  font-weight: 600;
 
 }
 
@@ -647,6 +649,11 @@ header{
 
 .marquee {
   animation: scroll 60s linear infinite;
+}
+
+
+.footerMargine{
+  margin-top: 96px;
 }
 
 @keyframes scroll {
@@ -946,6 +953,8 @@ z-index: -2;
   margin-top: 170px;
   margin-left: 16px;
   margin-right: 16px;
+
+
 }
 
 .grayS1,.grayS2,.grayS3,.grayS4 {
@@ -976,12 +985,12 @@ height: auto
   font-size: 24px;
   letter-spacing: -0.03em;
   color: #fefefe;
-  text-align: start;
+  text-align: center;
 }
 
 .exambleText2{
   font-size: 15px;
-  text-align: start;
+  text-align: center;
   margin-top: 10px;
 }
 
