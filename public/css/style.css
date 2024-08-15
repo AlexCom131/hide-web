@@ -539,15 +539,9 @@ header{
  
 }
 
-.gStarted{
-  gap: 0px;
-  border-radius: 50px;
-  border: 1px 0px 0px 0px;
-  opacity: 0px;
-  background: rgba(86, 125, 255, 1);
-  border: 1px solid rgba(255, 255, 255, 0.4);
-  gap: 0px;
-  opacity: 0px;
+.gStartedIntro{
+  width: 158px;
+  height: 48px;
 
   font-size: 18px;
   font-weight: 500;
@@ -559,11 +553,14 @@ header{
   display: grid; 
   place-items: center;
   white-space: nowrap;
-}
-
-.gStartedIntro{
-  width: 158px;
-  height: 48px;
+  gap: 0px;
+  border-radius: 50px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  background: rgba(86, 125, 255, 1);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  gap: 0px;
+  opacity: 0px;
 
 }
 
@@ -572,6 +569,15 @@ header{
   height: 48px;
   white-space: nowrap;
   font-weight: 600;
+  color: #ffffff;
+  gap: 0px;
+  border-radius: 50px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  background: rgba(86, 125, 255, 1);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  gap: 0px;
+  opacity: 0px;
 
 }
 
