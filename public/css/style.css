@@ -549,7 +549,7 @@ header{
   opacity: 0px;
 
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 32px;
   letter-spacing: -0.03em;
   text-align: center;
@@ -588,7 +588,7 @@ header{
   gap: 0px;
   opacity: 0px;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
   text-align: center;
   color: #ffffff;
   display: grid;
@@ -791,7 +791,7 @@ header{
   }
 
   .walq{
-      height: 326px;
+      /* height: 326px; */
     }
 
     .squar1{
@@ -833,15 +833,6 @@ line-height: 117%;
 letter-spacing: -0.03em;
 text-align: center;
 color: #fefefe;
-}
-
-.examble{
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 117%;
-  letter-spacing: -0.03em;
-  text-align: center;
-  color: rgb(255, 255, 255);
 }
 
 .exambleText2{
@@ -908,7 +899,6 @@ color: #a7a7a7;
   gap: 0px;
   opacity: 0px;
   text-align: center;
-  font-family: "Inter";
   font-size: 28px;
   font-weight: 700;
   line-height: 40px;
@@ -919,7 +909,6 @@ color: #a7a7a7;
 }
 
 .grayS1text2{
-  font-family: "Inter";
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -983,12 +972,11 @@ height: auto
 }
 
 .examble{
-font-weight: 700;
-font-size: 24px;
-letter-spacing: -0.03em;
-color: #fefefe;
-text-align: center;
-
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: -0.03em;
+  color: #fefefe;
+  text-align: start;
 }
 
 .exambleText2{
@@ -1076,7 +1064,7 @@ padding: 16px 16px 26px 16px;
   .exambleContainer{
       grid-template-columns: 343px;
       row-gap: 16px;
-      margin-top: 0;
+      margin-top: 60px;
       margin-left: 16px;
       margin-right: 16px;
   }
@@ -1090,7 +1078,7 @@ padding: 16px 16px 26px 16px;
     font-size: 24px;
     letter-spacing: -0.03em;
     color: #fefefe;
-    text-align: center;
+    text-align: start;
 
   }
 
@@ -1219,12 +1207,12 @@ label {
 label::after {
   content: '';
   border-radius: 50px;
-  width: 137px;
+  width: 129px;
   height: 48px;
   background: rgba(86, 125, 255, 1);
   border:1px solid rgba(255, 255, 255, .2);
   position: absolute;
-  transform: translateX(83%);
+  transform: translateX(94%);
 }
 
 label::after {
@@ -1244,6 +1232,9 @@ input[type="checkbox"]:checked + label::after {
   color: white;
   font-size: 18px;
   pointer-events: none;
+
+  font-weight: 600;
+
 } 
 
 .edition{
@@ -1284,6 +1275,22 @@ input[type="checkbox"]:checked + label::after {
 .wDemoEdition{
   width: 496px; 
   height: 48px;
+
+  gap: 0px;
+  border-radius: 50px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  border: 1px solid #ffffff;
+  background: rgba(255, 255, 255, 0);
+  gap: 0px;
+  opacity: 0px;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  color: #ffffff;
+  display: grid;
+  place-items: center;
+  white-space: nowrap;
 }
 
 .editionPayContainer{
@@ -1319,6 +1326,26 @@ input[type="checkbox"]:checked + label::after {
 .gStartedEdition{
   width: 496px; 
   height: 48px;
+
+  gap: 0px;
+  border-radius: 50px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  background: rgba(86, 125, 255, 1);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  gap: 0px;
+  opacity: 0px;
+
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  color: #ffffff;
+
+  display: grid; 
+  place-items: center;
+  white-space: nowrap;
 }
 
 .editionText{
@@ -1438,7 +1465,6 @@ input[type="checkbox"]:checked + label::after {
   .editionContainer{
       grid-template-columns: 543px;
       margin-top: 70px;
-      margin-bottom: 70px;
 
       justify-content: center;
   }
@@ -1491,7 +1517,7 @@ input[type="checkbox"]:checked + label::after {
   .editionContainer{
       grid-template-columns: 343px;
       margin-top: 70px;
-      margin-bottom: 70px;
+      /* margin-bottom: 70px; */
   }
 
   .edition{
@@ -2125,6 +2151,8 @@ a {
   width: 100%; 
   height: auto; 
   background: #1e1e1e;
+
+  margin-top: 224px;
 }
 
 .twoAboutText1{
@@ -2219,6 +2247,7 @@ a {
 
   .twoAbout{
       padding-bottom: 30px;
+      margin-top: 70px;
 
 }
 
