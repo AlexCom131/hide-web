@@ -366,6 +366,10 @@ footer{
   .textShow{
     display:contents;
   }
+
+  .paddingLeft{
+    padding-left: 20px;
+  }
   
 }
 
@@ -686,6 +690,8 @@ header{
     line-height: 167%;
     letter-spacing: -0.03em;
     color: #f3f5f7;
+
+    white-space: nowrap;
   }
 
 }
