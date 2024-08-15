@@ -557,16 +557,20 @@ header{
 
   display: grid; 
   place-items: center;
+  white-space: nowrap;
 }
 
 .gStartedIntro{
   width: 158px;
   height: 48px;
+
 }
 
 .gStartedBox{
   width: 158px;
   height: 48px;
+  white-space: nowrap;
+
 }
 
 .wDemoIntro{
