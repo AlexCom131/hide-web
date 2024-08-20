@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'Inter';
-  src: url(font/Inter-Italic-VariableFont_opsz,wght.ttf);
+  src: url(font/Inter-Italic-VariableFont_opsz_wght.woff);
 }
 
 @font-face {
   font-family: 'Inter';
-  src: url(font/Inter-VariableFont_opsz,wght.ttf);
+  src: url(font/Inter-VariableFont_opsz_wght.woff);
 }
 
 html, body{
@@ -572,7 +572,13 @@ header{
   color: #ffffff;
   gap: 0px;
   border-radius: 50px;
-  border: 1px 0px 0px 0px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 167%;
+  letter-spacing: -0.03em;
+  color: #f3f5f7;
+
+  white-space: nowrap;
   opacity: 0px;
   background: rgba(86, 125, 255, 1);
   border: 1px solid rgba(255, 255, 255, 0.4);
@@ -763,11 +769,11 @@ header{
       width: 100px;
       height: 37px;
 
-      font-weight: 500;
-      font-size: 13px;
-      line-height: 246%;
-      letter-spacing: -0.03em;
-      color: #fefefe;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 246%;
+    letter-spacing: -0.03em;
+    color: #fefefe;
   }
 
 
