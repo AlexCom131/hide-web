@@ -9,7 +9,7 @@
 
     <title>Hide</title>
 
-    <link rel="icon" sizes="64x64" href="img\icon\HG_logo.png">
+    <link rel="icon" sizes="64x20" href="img\icon\HG_logo.png">
 </head>
 
 <style>
@@ -62,7 +62,7 @@
                         <div><a class="header-menu-butter" style="padding-top: 50px;" href="index.html">Main</a></div>
                         <a class="header-menu-butter" href="index.html#section1" >Features</a>
                         <a class="header-menu-butter" href="index.html#section2" >Why Us?</a>
-                        <a class="header-menu-butter" href="index.html#section4" >FAQ</a>
+                        <a class="header-menu-butter" href="#section4" >FAQ</a>
                         <a class="header-menu-butter" href="index.html#section5" >Contact us</a>
                         <div><a class="header-menu-butter"href="privpolicy.html">Privacy Policy</a></div>
                         <!-- <div><a class="header-menu-butter" href="blog.html">Blog</a></div> -->
@@ -655,10 +655,17 @@
         document.addEventListener("DOMContentLoaded", function() {
         const burger = document.querySelector(".burger");
         const menu = document.querySelector(".mittel");
+        const faqLink = document.querySelector(".header-menu-butter");
+
 
         burger.addEventListener("click", function() {
             this.classList.toggle('active');
             menu.classList.toggle("show");
+        });
+
+        faqLink.addEventListener("click", function() {
+            burger.classList.remove('active');
+            menu.classList.remove("show");
         });
         });
     </script>
@@ -764,17 +771,17 @@
         document.body.appendChild(alertDiv);
         
         setTimeout(function() {
-            alertDiv.style.bottom = "20px";  // Анімація виїзду вгору
+            alertDiv.style.bottom = "20px";  
             alertDiv.style.opacity = 1;
         }, 100);
         
         setTimeout(function() {
-            alertDiv.style.bottom = "-100px";  // Анімація заїзду вниз
+            alertDiv.style.bottom = "-100px";  
             alertDiv.style.opacity = 0;
             setTimeout(function() {
                 alertDiv.remove();
             }, 500);
-        }, 3000);  // Час показу повідомлення
+        }, 3000); 
     }
 </script>
 
