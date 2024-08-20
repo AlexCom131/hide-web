@@ -544,7 +544,7 @@ header{
   height: 48px;
 
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 32px;
   letter-spacing: -0.03em;
   text-align: center;
@@ -929,7 +929,7 @@ color: #a7a7a7;
 
 .grayS1text2{
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 24px;
   letter-spacing: -0.03em;
   text-align: left;
@@ -1932,6 +1932,10 @@ a {
 
       margin-top: 10px;
   }
+
+  .ongoingQuestinText4{
+    font-size: 17px;
+  }
 }
 
 
@@ -2206,20 +2210,6 @@ a {
   margin-top: 16px;
 }
 
-.twoAboutText3{
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 129%;
-  color: #fff;
-}
-
-.twoAboutText4{
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 160%;
-  color: #6c7275;
-}
-
 .gridContainerIco{
   display: grid;
   grid-template-columns: 48px 439px;
@@ -2311,7 +2301,6 @@ a {
   }
   
   .twoAboutText4{
-      font-weight: 400;
       font-size: 15px;
   }
   .twoAboutIco{
